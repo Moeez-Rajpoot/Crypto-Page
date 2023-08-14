@@ -1,0 +1,193 @@
+*{
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+
+
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6) ) , url(./images/background1.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#navbar{
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.207);
+    display: flex;
+    height: 80px;
+    width: 100%;
+
+}
+
+ul{
+
+    flex: 1;
+
+}
+
+#en{
+
+    margin: 20px 30px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    width: 60px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    text-decoration: none;
+}
+
+#en:hover{
+
+
+    background-color: orange;
+    
+}
+
+ul li{
+
+    display: inline-block;
+    margin: 30px 20px;
+   
+
+}
+
+#logo{
+
+
+    height: 60px;
+    width: 60px;
+    margin: 10px 20px;
+}
+
+
+li:hover{
+
+    color: rgb(218, 126, 34);
+    cursor: pointer;
+}
+
+h1{
+
+
+    margin-top: 10%;
+    margin-left: 40px;
+    font-size: 80px;
+
+}
+
+span{
+
+    color: orange;
+}
+
+p{
+
+
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+button{
+
+    height: 50px;
+    width: 150px;
+    margin: 25px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid orange;
+    font-size: 16px;
+}
+
+button:hover{
+
+
+    background-color: orange;
+
+}
+
+.coins{
+
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    width: 30%;
+}
+
+
+.coins img{
+
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 50%;
+    outline: none;
+}
+
+
+
+.coin1 , .coin2 , .coin3{
+
+
+    display: flex;
+    margin-bottom: 30px;
+    column-gap: 20px;
+}
+
+
+.coin1 h3, .coin2 h3, .coin3 h3{
+
+
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+
+.coin1 p{
+
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 65px;
+    color: rgb(0, 182, 0);
+
+
+}
+
+
+.coin2 p{
+
+
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(0, 182, 0);
+
+} 
+
+.coin3 p{
+
+
+    margin-top: 45px;
+    font-size: 20px;
+    margin-left: 45px;
+    color: rgb(0, 182, 0);
+
+}
+
+
+
+
